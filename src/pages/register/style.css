@@ -1,0 +1,10 @@
+.warning-button {
+    background-color: #faad14;
+    color: white;
+    border: none;
+}
+
+.warning-button:hover {
+    background-color: #d48806 !important;
+    color: white !important;
+}

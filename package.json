@@ -10,6 +10,7 @@
         "preview": "vite preview"
     },
     "dependencies": {
+        "antd": "^5.23.0",
         "fe_shoes_store": "file:",
         "react": "^18.3.1",
         "react-dom": "^18.3.1",

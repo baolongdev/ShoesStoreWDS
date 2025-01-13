@@ -5,6 +5,8 @@ import Footer from './components/footer';
 import Home from './components/home';
 import ContactPage from './components/contact';
 import LoginPage from './pages/login';
+import RegisterPage from './pages/register';
+import './styles/global.css'
 
 
 const Layout = () => {
@@ -37,6 +39,10 @@ const router = createBrowserRouter([
     path: "/login",
     element: <LoginPage />
   },
+  {
+    path: "/register",
+    element: <RegisterPage />
+  }
 ]);
 
 
